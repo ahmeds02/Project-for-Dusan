@@ -15,7 +15,8 @@ INSERT INTO `bx_books` VALUES ('ISBN','Booktitle','Book-Author',Year-Of-Publicat
 •	functionality for adding new rating of a book
 INSERT INTO `bx-book-Ratings` VALUES (User-ID,'ISBN',Book-Rating);
 
-•	functionality for searching a book
+•	functionality for searching a book 
+
 SELECT * FROM `bx_books` WHERE Book_Title='dd' ORDER BY "Year-Of-Publication";
 
 •	schema of cloud architecture
