@@ -10,9 +10,11 @@ WHERE
 	bx_book_ratings.ISBN = bx_books.ISBN;
   
 •	functionality for adding new book to a database
+
 INSERT INTO `bx_books` VALUES ('ISBN','Booktitle','Book-Author',Year-Of-Publication,'Publisher','Image-URL-S',Image-URL-M','Image-URL-L');
 
 •	functionality for adding new rating of a book
+
 INSERT INTO `bx-book-Ratings` VALUES (User-ID,'ISBN',Book-Rating);
 
 •	functionality for searching a book 
