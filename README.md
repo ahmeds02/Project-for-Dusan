@@ -1,4 +1,4 @@
-# project-for-Dusan
+# project-for-Dušan
 
 •	final dataset from which we will be able to see avarage rating for specific book (the source dataset coudl be found here: http://www2.informatik.uni-freiburg.de/~cziegler/BX/)
 
