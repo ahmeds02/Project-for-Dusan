@@ -153,7 +153,7 @@ resource "aws_security_group" "rds" {
 
 # CREATE RDS DB INSTANCE
 resource "aws_db_instance" "rds" {
-  allocated_storage    = 10
+  allocated_storage    = 20
   engine               = "mysql"
   engine_version       = "8.0.19"
   instance_class       = "db.m5.large"
